@@ -30,7 +30,7 @@ const Header = () => {
     } fixed max-w-[1920px] top-0 w-full left-0 right-0 bg-primary-200 h-[100px] transition-all z-50`}>
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* logo */}
-        <Link href=''>
+        <Link onClick={() => setOpenNav(!openNav)}  href=''>
           <Image src={"/assets/img/logo.png"} width={117} height={55} alt=""></Image>
         </Link>
         {/* mobile nav - hidden on large devices */}
@@ -44,9 +44,14 @@ const Header = () => {
         bg-primary-200 w-full left-0 top-[124px] text-base uppercase font-medium 
         text-white xl:hidden`}/>
         {/* desktop nav - hidden on small devices */}
-        <Nav containerStyles="flex gap-4 text-white hidden xl:flex" />
+        <Nav containerStyles="flex gap-4 text-white text-base uppercase font-medium transtion-all hidden xl:flex" />
         {/* hide/open menu button */}
-        <div>
+        <div className="flex items-center gap-4">
+          {/* login & register buttons */}
+          <div className="text-white flex items-center gap-4">
+            <button className="hover:text-accent transition-all text-base uppercase font-medium">Login</button>
+            <button className="hover:text-accent transition-all text-base uppercase font-medium">Register</button>
+          </div>
           <button 
           onClick={() => setOpenNav(!openNav)} 
           className="text-white xl:hidden">
