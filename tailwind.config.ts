@@ -23,8 +23,8 @@ const config: Config = {
       roboto: 'var(--font-roboto)',
     },
     backgroundImage: {
-      hero: 'url(/assets/img/hero/bg.png',
-      membership: 'url(/assets/img/membership/bg.jpg',
+      hero: 'url(/assets/img/hero/bg.png)',
+      membership: 'url(/assets/img/membership/bg.jpg)',
     },
     extend: {
       colors: {
