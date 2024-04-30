@@ -50,7 +50,7 @@ const Header = () => {
           {/* login & register buttons */}
           <div className="text-white flex items-center gap-4">
             <button className="hover:text-accent transition-all text-base uppercase font-medium">Login</button>
-            <button className="hover:text-accent transition-all text-base uppercase font-medium">Register</button>
+            <button className="hover:text-accent transition-all text-base uppercase font-medium">Casdastra-se</button>
           </div>
           <button 
           onClick={() => setOpenNav(!openNav)} 

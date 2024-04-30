@@ -17,9 +17,7 @@ export default function Home() {
       <Membership />
       <Testimonial />
       <Blog />
-      <Brands />
-
-      
+      <Brands />  
     </main>
   );
 }

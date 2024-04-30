@@ -26,7 +26,7 @@ const HeroSlider = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.2 }}
             className="h1 text-center lg:text-left mb-2">
-              <span>Where hard</span> work meets success
+              <span className="text-accent">Trabalho duro</span> encontra o sucesso
             </motion.h1>
             <motion.p 
               variants={fadeIn('up', 0.6)}
@@ -43,7 +43,7 @@ const HeroSlider = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.2 }}
             >
-              <CustomButton text='Get started' containerStyles='w-[196px] h-[62px]' />
+              <CustomButton text='Comece agora' containerStyles='w-[196px] h-[62px]' />
             </motion.div>      
           </div>
         </div>
@@ -58,7 +58,7 @@ const HeroSlider = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.2 }}
             className="h1 text-center lg:text-left mb-2">
-              <span>Where hard</span> work meets success
+              <span>Onde é difícil</span>o trabalho encontra sucesso
             </motion.h1>
             <motion.p 
               variants={fadeIn('up', 0.6)}
@@ -75,7 +75,7 @@ const HeroSlider = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.2 }}
             >
-              <CustomButton text='Get started' containerStyles='w-[196px] h-[62px]' />
+              <CustomButton text='Comece agora' containerStyles='w-[196px] h-[62px]' />
             </motion.div>      
           </div>
         </div>
