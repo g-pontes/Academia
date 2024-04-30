@@ -23,7 +23,7 @@ const trainerData = [
   {
     image: '/assets/img/trainers/rosy.jpg',
     name: 'Rose Vieira',
-    role: 'Body builder coach',
+    role: 'Fitness coach',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquam, eum.',
     social: [
       { icon: FaFacebook, href: 'http://facebook.com' },
@@ -34,7 +34,7 @@ const trainerData = [
   {
     image: '/assets/img/trainers/matt.jpg',
     name: 'Matheus Bastos',
-    role: 'Body builder coach',
+    role: 'Crossfit coach',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquam, eum.',
     social: [
       { icon: FaFacebook, href: 'http://facebook.com' },
@@ -45,7 +45,7 @@ const trainerData = [
   {
     image: '/assets/img/trainers/sofia.jpg',
     name: 'Sofia Alcantara',
-    role: 'Body builder coach',
+    role: 'Fitness coach',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquam, eum.',
     social: [
       { icon: FaFacebook, href: 'http://facebook.com' },

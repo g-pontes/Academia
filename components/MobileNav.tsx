@@ -7,7 +7,7 @@ const links = [
     {name:'sobre', target:'sobre', offset: -80},
     {name:'aulas', target:'aulas', offset: -80},
     {name:'equipe', target:'equipe', offset: 0},
-    {name:'preços', target:'preços', offset: -40},
+    {name:'planos', target:'planos', offset: -40},
     {name:'avaliações', target:'avaliações', offset: 0},
     {name:'blog', target:'blog', offset: 0},
     {name:'contato', target:'contato', offset: 0},
