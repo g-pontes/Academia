@@ -124,6 +124,7 @@ const membership = [
 const MembershipSlider = () => {
   return (
     <Swiper
+        className="min-h-[680px]"
         slidesPerView={1}
         modules={[Pagination]}
         pagination={{
@@ -138,19 +139,18 @@ const MembershipSlider = () => {
                 slidesPerView: 3,
                 spaceBetween: 30,
             },
-        }}
-        className="min-h-[680px]"
+        }}    
     >
         {membership.map((item, index) => {
             return(
                 <SwiperSlide key={index}>
                     <div className="border border-accent hover:bg-primary-300/80 transition-all
                     duration-300 w-full max-w-sm xl:max-w-none mx-auto">
-                        <div className="py-5 px-[60px] border-b border-accent">
+                        <div className="py-3 px-[60px] border-b border-accent">
                             <h4 className="h4">{item.title}</h4>
                         </div>
                         {/* benefits */}
-                        <div className="py-[30px] px-[60px]">
+                        <div className="py-[25px] px-[60px]">
                             <ul className="flex flex-col gap-5 mb-7">
                                 {item.benefits.map((item, index) => {
                                     return(
@@ -162,7 +162,7 @@ const MembershipSlider = () => {
                                 })}
                             </ul>
                             {/* prices */}
-                            <p className="text-accent mb-8 flex gap-1 items-center">
+                            <p className="text-accent mb-3 flex gap-1 items-center">
                                 <sup className="text-4xl">R$</sup>
                                 <strong className="text-6xl">{item.price}</strong>
                                 <em className="self-end text-2xl">/mês</em>
