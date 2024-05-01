@@ -19,6 +19,7 @@ const MobileNav = ({ containerStyles }: {containerStyles: string}) => {
        {links.map((link, index) =>{
             return (
                 <ScrollLink
+                key={index}
                     offset={link.offset}
                     to={link.target}
                     smooth
