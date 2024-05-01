@@ -11,7 +11,7 @@ const CustomButton = ({
         rotate-45 bg-black transtion-all duration-300 group-hover:h-64
         group-hover:-translate-y-32"></span>
         <span className="ease relative text-white transition duration-300
-         group-hover:text-white">{text}</span>
+         group-hover:text-white max-[400px]:text-[13px]">{text}</span>
     </button>
   )
 }

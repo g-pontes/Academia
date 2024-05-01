@@ -49,7 +49,7 @@ const About = () => {
         </div>
         {/* featured items */}
         <motion.div 
-          variants={fadeIn('up', 0.8)}
+          variants={fadeIn('up', 0.4)}
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.2 }}
@@ -64,7 +64,7 @@ const About = () => {
                 <div className="text-4xl bg-primary-300 text-white w-[80px] h-[80px]
                 rounded-full flex justify-center items-center">{featured.icon}</div>
                 <div>
-                  <h4 className="h4 text-accent">{featured.title}</h4>
+                  <h4 className="h4 text-center text-accent pb-5">{featured.title}</h4>
                   <p>{featured.subtitle}</p>
                 </div>
               </div>
@@ -73,7 +73,7 @@ const About = () => {
         </motion.div>
         {/* achievements */}
         <motion.div
-          variants={fadeIn('up', 1)}
+          variants={fadeIn('up', 0.4)}
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.2 }}

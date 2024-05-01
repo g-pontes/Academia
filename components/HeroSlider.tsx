@@ -33,7 +33,7 @@ const HeroSlider = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.2 }}
-              className="text-white italic text-center lg:text-left mb-4">
+              className="text-white italic text-center lg:text-left mb-4 max-[400px]:text-12px] max-[400px]:text-[16px]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus molestiae tempora illum numquam doloremque sunt
             </motion.p>
@@ -43,7 +43,7 @@ const HeroSlider = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.2 }}
             >
-              <CustomButton text='Comece agora' containerStyles='w-[196px] h-[62px]' />
+              <CustomButton text='Comece agora' containerStyles='w-[196px] h-[62px] max-[400px]:w-[126px] h-[32px]' />
             </motion.div>      
           </div>
         </div>
@@ -58,14 +58,14 @@ const HeroSlider = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.2 }}
             className="h1 text-center lg:text-left mb-2">
-              <span>Onde é difícil</span>o trabalho encontra sucesso
+              <span className="text-accent">Trabalho duro</span> encontra o sucesso
             </motion.h1>
             <motion.p 
               variants={fadeIn('up', 0.6)}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.2 }}
-              className="text-white italic text-center lg:text-left mb-4">
+              className="text-white italic text-center lg:text-left mb-4 max-[400px]:text-12px] max-[400px]:text-[16px]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus molestiae tempora illum numquam doloremque sunt
             </motion.p>
@@ -75,7 +75,7 @@ const HeroSlider = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.2 }}
             >
-              <CustomButton text='Comece agora' containerStyles='w-[196px] h-[62px]' />
+              <CustomButton text='Comece agora' containerStyles='w-[196px] h-[62px] max-[400px]:w-[126px] h-[32px]' />
             </motion.div>      
           </div>
         </div>
@@ -83,10 +83,10 @@ const HeroSlider = () => {
       {/*swiper nav buttons*/}
       <SwiperNavButtons
         containerStyles='absolute bottom-2 lg:bottom-0 right-0 h-[130px] w-full lg:w-[700px]
-        z-50 flex justify-center lg:justify-start gap-1'
+        z-50 flex justify-center lg:justify-start gap-1 max-[400px]:bottom-[-30px]'
         btnStyles='border border-accent text-white w-[56px] h-[56px] flex
-        justify-center items-center hover:bg-accent transition-all duration-300'
-        iconsStyles='text-2xl' 
+        justify-center items-center hover:bg-accent transition-all duration-300 max-[400px]:w-[36px] max-[400px]:h-[35px]'
+        iconsStyles='text-2xl max-[400px]:text-[16px]' 
       />
     </Swiper>
   )

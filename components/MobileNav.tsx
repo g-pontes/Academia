@@ -13,7 +13,7 @@ const links = [
     {name:'contato', target:'contato', offset: 0},
 ];
 
-const MobileNav = ({ containerStyles}: {containerStyles: string}) => {
+const MobileNav = ({ containerStyles }: {containerStyles: string}) => {
   return (
     <nav className={`${containerStyles}`}>
        {links.map((link, index) =>{

@@ -93,7 +93,7 @@ const Achievements = () => {
                                 {/* text */}
                                 <div className="flex flex-col justify-center items-center text-center">
                                 <item.icon className="text-3xl mb-2" />
-                                <h4 className="h4">{item.text}</h4>
+                                <h4 className="h4 max-[400px]:text-[16px]">{item.text}</h4>
                                 </div>
                             </motion.div>
                         )

@@ -145,7 +145,7 @@ const MembershipSlider = () => {
             return(
                 <SwiperSlide key={index}>
                     <div className="border border-accent hover:bg-primary-300/80 transition-all
-                    duration-300 w-full max-w-sm xl:max-w-none mx-auto">
+                    duration-300 w-full max-w-sm xl:max-w-none mx-auto max-[400px]:max-w-[330px]">
                         <div className="py-3 px-[60px] border-b border-accent">
                             <h4 className="h4">{item.title}</h4>
                         </div>
@@ -168,7 +168,7 @@ const MembershipSlider = () => {
                                 <em className="self-end text-2xl">/mês</em>
                             </p>
                             <CustomButton
-                                containerStyles="w-[192px] h-[62px]"
+                                containerStyles="w-[192px] h-[62px] max-[400px]:w-[152px] h-[42px] max-[400px]:ml-5"
                                 text="Compre agora!"
                              />
                         </div>

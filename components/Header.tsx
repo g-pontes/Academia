@@ -42,15 +42,15 @@ const Header = () => {
           : 'max-h-0 pt-0 pb-0 overflow-hidden border-white/0'}
         flex flex-col text-center gap-8 fixed 
         bg-primary-200 w-full left-0 top-[124px] text-base uppercase font-medium 
-        text-white xl:hidden`}/>
+        text-white xl:hidden`} />
         {/* desktop nav - hidden on small devices */}
         <Nav containerStyles="flex gap-4 text-white text-base uppercase font-medium transtion-all hidden xl:flex" />
         {/* hide/open menu button */}
         <div className="flex items-center gap-4">
           {/* login & register buttons */}
           <div className="text-white flex items-center gap-4">
-            <button className="hover:text-accent transition-all text-base uppercase font-medium">Login</button>
-            <button className="hover:text-accent transition-all text-base uppercase font-medium">Casdastra-se</button>
+            <button className="hover:text-accent transition-all text-base uppercase font-medium max-[400px]:text-[13px]">Login</button>
+            <button className="hover:text-accent transition-all text-base uppercase font-medium max-[400px]:text-[13px]">Casdastra-se</button>
           </div>
           <button 
           onClick={() => setOpenNav(!openNav)} 
